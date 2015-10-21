@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS =  -I. -g
 LDFLAGS = -L. -lpthread
-SOURCES = magicType.c
+SOURCES = project1.c
 OBJECTS = $(notdir $(SOURCES:.c=.o))
-EXECUTE = magicType
+EXECUTE = magictype
 
 all: $(OBJECTS) $(EXECUTE)
 
@@ -15,4 +15,4 @@ $(OBJECTS): $(SOURCES)
 run:
 	./$(EXECUTE)
 clean:
-	rm -rf *~ *.o $(EXECUTE)
+	rm -rf *~ *.o $(EXECUTE) tmp
