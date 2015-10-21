@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS =  -I. -g
-LDFLAGS = -L.
+LDFLAGS = -L. -lpthread
 SOURCES = magicType.c
 OBJECTS = $(notdir $(SOURCES:.c=.o))
 EXECUTE = magicType
