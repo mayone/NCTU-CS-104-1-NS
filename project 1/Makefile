@@ -3,7 +3,7 @@ CFLAGS =  -I. -g
 LDFLAGS = -L. -lpthread
 SOURCES = project1.c
 OBJECTS = $(notdir $(SOURCES:.c=.o))
-EXECUTE = magictype
+EXECUTE = project1
 
 all: $(OBJECTS) $(EXECUTE)
 
