@@ -9,8 +9,7 @@
 ##Client
 
 - The website that you can send packets to your own server
-- IP: 140.113.194.85
-- Port: 49176
+- Website: [140.113.194.85:49176](http://140.113.194.85:49176/)
 
 ##Server
 
