@@ -6,7 +6,7 @@
 
 - [Stage 2](http://140.113.194.85:81/problems/16) - Return Hijack (jump to the magic function)
 
-- [Stage 3](http://140.113.194.85:81/problems/17)- Return to libc (get shell to control the server)
+- [Stage 3](http://140.113.194.85:81/problems/17) - Return to libc (get shell to control the server)
 
 ##Server
 
