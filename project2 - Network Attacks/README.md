@@ -3,7 +3,6 @@
 ##Problem description
 
 - [Stage 1](http://140.113.194.85:81/problems/37) - Replay Attack
-
 - [Stage 2](http://140.113.194.85:81/problems/38) - Man-in-the-middle Attack
 
 ##Client
